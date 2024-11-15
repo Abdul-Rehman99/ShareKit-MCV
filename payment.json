@@ -1,0 +1,53 @@
+{
+    "entity": "event",
+    "account_id": "acc_E0LCIeIFfjPAwI",
+    "event": "payment.authorized",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_PAwph2OsfGphWn",
+                "entity": "payment",
+                "amount": 180000,
+                "currency": "INR",
+                "status": "authorized",
+                "order_id": "order_PAwpVplq3kQowd",
+                "invoice_id": null,
+                "international": false,
+                "method": "upi",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": false,
+                "description": "corporate - ShareKit Plan",
+                "card_id": null,
+                "bank": null,
+                "wallet": null,
+                "vpa": "success@razorpay",
+                "email": "gaurav.kumar@example.com",
+                "contact": "+919000090000",
+                "notes": {
+                    "user": "67112299e6249c61873c5008",
+                    "plan": "671120a69001937ddd95794b"
+                },
+                "fee": null,
+                "tax": null,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "rrn": "161012017832",
+                    "upi_transaction_id": "7CE43F3607D72807FF47DFC58C05EAE9"
+                },
+                "created_at": 1729352154,
+                "upi": {
+                    "vpa": "success@razorpay"
+                }
+            }
+        }
+    },
+    "created_at": 1729352155
+}
